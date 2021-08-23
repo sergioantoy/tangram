@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tangram and other Dissection Puzzles </title>
+    <style>
+      .div-left {
+      float: left;
+      height: 83px;
+      width: 103px;
+      margin: 2px 22px 12px 2px;
+      }
+      .action td
+      {
+      border: 1px solid #333333;
+      padding: 3px;
+      }
+    </style>
+  </head>
+  <body style="background-color:#EEEEEE;">
+
+    <h2>Tangram and other Dissection Puzzles</h2>
+
+    <h3>Introduction</h3>
+    
+    <script src="http://www.java.com/js/deployJava.js"></script>
+    <div class="div-left">
+      <a href="./tangram.jnlp" style="outline:none;">
+	<img src="./res/images/tangram-ico.jpg" alt="[click]"
+	     style="width:103px; height:83px;">
+      </a>
+    </div>
+    Clicking on the icon will pop up a frame for the Tangram puzzle.
+    According to Wikipedia,
+    <a href="http://en.wikipedia.org/wiki/Tangram"><i>Tangram</i></a>
+    is a dissection puzzle consisting of seven pieces
+    which fit together to form a shape of some sort.
+    This program implements <i>Tangram</i> and other
+    dissection puzzles.
+    <p>
+      Browsers are not friendly to Java.  If your browser refuses to execute
+      the program, you can execute it with a command similar to the following:
+      <div style="text-align:center; font-family:monospace;">
+	javaws http://web.cecs.pdx.edu/~antoy/private/tangram-dir/tangram.jnlp
+      </div>
+      <br/> You may also have to include the
+      server <span style="font-family:monospace;">web.cecs.pdx.edu</span>
+      in the exception site list of the Java control panel.  This program
+      is signed, self-certified and sandboxed.
+    <p>
+      This document takes some liberty with the terminology.
+      Each piece of <i>Tangram</i> is called a <i>tan</i>
+      and a configuration of pieces is called a <I>tangram</I>
+      (lower case).
+      In this document, the words "tan" and "tangram" denote a piece
+      and a configuration of a dissecting puzzle of the
+      program whether or not the puzzle is <i>Tangram</i>.
+
+
+      <h3>The GUI</h3>
+
+      The graphical interface contains 3 main areas: 
+      the <em>menu</em> (top of the interface, Fig. 1), 
+      the <em>Control</em> (left, Fig. 2) and 
+      the <em>Playboard</em> (right, Fig. 3).
+    <p>
+      <blockquote>
+	<table style="border:1px solid black;
+		      background-color:#ffffff; padding:0px"><tr><td>
+	      <table style="padding:9px">
+		<tr><td><img src="./res/html/menu.gif" alt="[Menu]"></td></tr>
+		<tr><td>Figure 1.  The menu.</td></tr>
+	      </table>
+	</td></tr></table>
+	<p>
+	  <table style="border:1px solid black; background-color:#ffffff; padding:9px">
+	    <tr><td>
+		<table style="padding:9px">
+		  <tr><td><img src="./res/html/control.gif" alt="[Control]"></td></tr>
+		  <tr><td>Figure 2.  The Control.</td></tr>
+		</table>
+	  </td></tr></table>
+	<p>
+	  <table style="border:1px solid black;
+			background-color:#ffffff; padding:0px"><tr><td>
+		<table style="padding:9px">
+		  <tr><td><img src="./res/html/playboard.gif" alt="[Playboard]"></td></tr>
+		  <tr><td>Figure 3.  The Playboard.</td></tr>
+		</table>
+	  </td></tr></table>
+	<p>
+	  <table style="border:1px solid black;
+			background-color:#ffffff; padding:0px"><tr><td>
+		<table style="padding:9px">
+		  <tr><td><img src="./res/html/goalview.gif" alt="[goal view]"></td></tr>
+		  <tr><td>Figure 4.  The goal view.</td></tr>
+		</table>
+	  </td></tr></table>
+      </blockquote>
+
+    <p>
+
+      The <em>Control</em> contains 4 buttons and a small black area with
+      a white shape centered inside.  
+      The black area is the <em>goal view</em> and
+      the white shape inside it is a tangram referred to
+      as the <em>current goal</em>.
+      The buttons select the current goal and some options about it.
+
+    <p>
+
+      The colored polygons in the <em>Playboard</em> are the tans.
+      The tans can be dragged, rotated and flipped with the mouse.
+      The purpose of a game is to arrange the
+      tans in a shape similar to the tangram shown
+      by the <em>current goal</em>.
+
+      <h3>Tangrams</h3>
+
+      <h4>Changing the Tangram</h4>
+
+      There is a small database of tangrams for any puzzle.
+      Two buttons, <em>Prev Goal</em> and <em>Next Goal</em>,
+      move the <em>current goal</em> through the database.
+
+      <h4>Solving the current goal</h4>
+
+      The <em>Easy</em> button of the <em>Control</em>
+      produces a representation of the <em>current goal</em>, at natural size,
+      on the <em>Playboard</em>.
+      In contrast to the tans on the <em>Playboard</em>,
+      this representation of the tangram cannot be moved.
+    <p>
+      The button labeled <em>Solve</em> shows the solution
+      of the game in the <em>current goal</em>.
+
+      <h4>Managing the tangram database</h4>
+
+      Tangrams can be added to and deleted from the database.
+      To delete the <em>current goal</em> choose the
+      <em>delete</em> item in the <em>Goals</em> menu entry.
+      The "initial" tangram of a set cannot be deleted.
+    <p>
+      To add a new tangram, place the tans
+      in the desired configuration and choose the
+      <em>add</em> item in the <em>Goals</em> menu entry.
+      The newly added tangram is placed after the current goal
+      and it becomes the new current goal.
+    <p>
+      Every configuration of tans can be
+      made into a tangram.  But configurations with 
+      overlapping tans should be avoided.
+      The <i>Easy</i> option does not handle these configurations
+      correctly.
+    <p>
+      The database of tangrams may be permanently saved to disk.
+      This feature is affected by how the program is started and by
+      the permission to write on the local disk.
+      To save the database choose the <em>save</em>
+      item in the <em>Goals</em> menu entry.
+      The choice may be disabled or fail depending on the above conditions.
+
+      <h3>Manipulating the tans</h3>
+
+      The tans can partially or totally overlap.
+      Any mouse click on a tan brings it to the top.
+    <p>
+      The mouse enables the following actions.
+      See the "Using keyboard keys" section below for some alternatives
+      to mouse actions.
+
+      <blockquote>
+	<table style="border:1px solid black;
+		      background-color:#ffffff; padding:0px"><tr><td>
+	      <table class="action" style="border:1px solid black; padding:3px">
+		<tr>
+		  <th>Mouse action</th>
+		  <th>Tan behavior</th>
+		</tr>
+		<tr>
+		  <td>left down</td>
+		  <td>bring to top</td>
+		</tr>
+		<tr>
+		  <td>any drag</td>
+		  <td>move</td>
+		</tr>
+		<tr>
+		  <td>right click</td>
+		  <td>rotate counterclockwise</td>
+		</tr>
+		<tr>
+		  <td>middle click</td>
+		  <td>rotate clockwise</td>
+		</tr>
+		<tr>
+		  <td>left double click</td>
+		  <td>flip</td>
+		</tr>
+	      </table>
+	</td></tr></table>
+      </blockquote>
+
+      A rotation is always by 45 degrees.
+    <p>
+      The corners of the tans attract each other when they are
+      in proximity.  This feature eases the placement of tans.
+      This feature may preclude some small movements that would put
+      two corners a few pixels apart.
+
+      <h3>Menu</h3>
+
+      The <em>menu</em> affects global actions and setting of the program.
+    <p>
+      Several sets of tans may be available in the program.
+      A set of tans can be selected with the
+      <em>Open</em> item in the <em>File</em> menu entry.
+    <p>
+      The program default settings, except for the configuration
+      of the tans, can be restored with the
+      <em>Default</em> item in the <em>File</em> menu entry.
+    <p>
+      The <em>Easy</em> option is local to the current tangram.
+      The <em>menu</em> allows setting this option permanently
+      with the <em>Always easy</em> item in the <em>Options</em> menu entry.
+    <p>
+      An audible sound can be produced when the corners of
+      two tans touch, i.e., the tans
+      fall in place.  By default, the sound is disabled.
+      It can be enabled by toggling
+      the <em>Quiet</em> item in the <em>Options</em> menu entry.
+    <p> 
+      The <em>Goals</em> menu entry supports the manipulations of
+      tangrams as discussed earlier.
+    <p> 
+      The <em>Help</em> menu entry provides information about the
+      program.
+
+      <h3>Using keyboard keys</h3>
+
+      Some frequent menu and mouse actions can be obtained
+      with keyboard keys.  Menu entries and button labels
+      display the key for obtaining the corresponding action.
+    <p>
+      In particular, the tans can be moved using
+      only the left button.  When the left button is down
+      on a <em>Tan</em>, the keys enable the following actions.
+
+      <blockquote>
+	<table style="border:1px solid black;
+		      background-color:#ffffff; padding:0px"><tr><td>
+	      <table class="action" style="border:1px solid black; padding:3px">
+		<tr>
+		  <th>Key</th>
+		  <th>Tan behavior</th>
+		</tr>
+		<tr>
+		  <td>R</td>
+		  <td>rotate counterclockwise</td>
+		</tr>
+		<tr>
+		  <td>T</td>
+		  <td>rotate clockwise</td>
+		</tr>
+		<tr>
+		  <td>F</td>
+		  <td>flip</td>
+		</tr>
+	      </table>
+	</td></tr></table>
+      </blockquote>
+
+    <p>
+
+      The case, i.e., upper vs. lower, of a key is irrelevant.
+
+      <h3>New Puzzles</h3>
+
+      A <em>Puzzle</em> is a set of tans and its database of tangrams.
+      It is possible to add new puzzles without changing and
+      recompiling the program.  Adding a puzzle entails creating a
+      text file with extensions
+      <span style="font-family:'Lucida Console', monospace; font-weight:bold;">
+	xml</span> and placing it in the directory
+      <span style="font-family:'Lucida Console', monospace; font-weight:bold;">
+	res/xml</span>.  This directory contains several puzzle files.  The
+      definition of a puzzle file is not yet documented, but the
+      content and format, which can be inspected with a text editor,
+      are relatively self-explanatory.
+
+      <h3>TODO, bugs</h3>
+
+      <h4>Diplaying tangrams</h4>
+
+      It takes a considerably long time to display some tangrams
+      in the <em>goal view</em>.  
+      Probably the time goes into scaling the image 4:1.  
+      Maybe there is a better way to achieve the effect.
+
+      <h4>Adding tangrams</h4>
+
+      Tangrams with overlapping tans should be detected and rejected,
+      since the easy silouette is incorrectly computed for these tangrams.
+
+
+      <h3>Acknowledgment</h3>
+
+      <a href="http://www.mathadomicile.fr">Philippe Moutou</a>
+      contributed the machine executable definition,
+      in the form of an XML document, of many puzzles and suggested several
+      improvements to an earlier version of this program.
+      Harold Fuchs (London, England) helped with the terminology.
+
+    <p><hr>
+
+    <p><div style="font-style:italic; font-size:75%; text-align:right;">
+	Copyright &copy; 1996-2017 by
+	<a href="mailto:antoy@cs.pdx.edu">S. Antoy</a>.<br/>
+	Version 0.86 of 7/23/2008.
+      </div>
+
+  </body>
+</html>

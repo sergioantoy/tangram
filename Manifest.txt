@@ -1,0 +1,9 @@
+Application-Name: Tangram Puzzles
+Build-Time: Wed May 24 18:55:07 PDT 2017
+Class-Path: tangram/
+Entry-Point: tangram.Main
+Implementation-Title: "Tangram Puzzles" 
+Implementation-Version: "v0.8"
+Main-Class: tangram.Main
+Name: Main.class
+Permissions: sandbox

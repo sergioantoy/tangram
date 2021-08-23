@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# ROOT is the classpath for this project
+ROOT=`(cd \`dirname $0\`/.. > /dev/null ; pwd)`
+
+# PACKAGE is the name of the package
+PACKAGE=tangram
+
+# CLASSES is where the class are modulo packages, same as the root
+CLASSES=$ROOT/classes
+mkdir -p $CLASSES
+
+# SRC is the source directory
+SRC=$ROOT/src
+
+# JAVA is the compilation command
+JAVAC="javac -Xlint:deprecation -Xlint:unchecked -classpath $SRC -d $CLASSES"
+
+cd $ROOT
+
+    echo Removing all ".class" files in directory \"$CLASSES\"
+    rm -f `find $CLASSES -name "*.class"`
+    rm -f APuzzle.jar
+    # pushd $SRC > /dev/null 2>&1
+    cd $SRC
+    $JAVAC tangram/Main.java || exit
+    # popd  > /dev/null 2>&1
+
+echo ""
+echo run \"makejar\" to create the executable jar file

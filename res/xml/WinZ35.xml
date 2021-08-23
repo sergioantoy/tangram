@@ -1,0 +1,2681 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- Phil Fri Mar 05 23:47:29 CET 2010 -->
+
+<game name="TANS9Z35">
+  <pieceList>
+    <piece id="0">
+      <pieceName>Triangle</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>58</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>0</red>
+        <green>125</green>
+        <blue>0</blue>
+      </color>
+    </piece>
+    <piece id="1">
+      <pieceName>Triangle</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>58</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>116</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>125</red>
+        <green>0</green>
+        <blue>255</blue>
+      </color>
+    </piece>
+    <piece id="2">
+      <pieceName>Trapezoid rectangle</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>58</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>116</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>58</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>125</red>
+        <green>250</green>
+        <blue>0</blue>
+      </color>
+    </piece>
+    <piece id="3">
+      <pieceName>Trapezoid symmetric</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>116</xp>
+          <yp>116</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>116</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>58</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>250</red>
+        <green>125</green>
+        <blue>0</blue>
+      </color>
+    </piece>
+    <piece id="4">
+      <pieceName>Trapezoid rectangle</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>58</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>116</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>0</red>
+        <green>125</green>
+        <blue>255</blue>
+      </color>
+    </piece>
+    <piece id="5">
+      <pieceName>Triangle T</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>116</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>116</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>125</red>
+        <green>0</green>
+        <blue>125</blue>
+      </color>
+    </piece>
+    <piece id="6">
+      <pieceName>thin boot b</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>58</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>58</yp>
+        </point>
+        <point>
+          <xp>-58</xp>
+          <yp>116</yp>
+        </point>
+        <point>
+          <xp>-116</xp>
+          <yp>116</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>125</red>
+        <green>125</green>
+        <blue>0</blue>
+      </color>
+    </piece>
+    <piece id="7">
+      <pieceName>Pentagon P29</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>58</yp>
+        </point>
+        <point>
+          <xp>58</xp>
+          <yp>58</yp>
+        </point>
+        <point>
+          <xp>0</xp>
+          <yp>116</yp>
+        </point>
+        <point>
+          <xp>-116</xp>
+          <yp>116</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>125</red>
+        <green>125</green>
+        <blue>255</blue>
+      </color>
+    </piece>
+    <piece id="8">
+      <pieceName>Octotans P4</pieceName>
+      <polygon>
+        <point>
+          <xp>0</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>116</xp>
+          <yp>0</yp>
+        </point>
+        <point>
+          <xp>232</xp>
+          <yp>116</yp>
+        </point>
+        <point>
+          <xp>116</xp>
+          <yp>116</yp>
+        </point>
+      </polygon>
+      <color>
+        <red>0</red>
+        <green>125</green>
+        <blue>125</blue>
+      </color>
+    </piece>
+  </pieceList>
+  <configList>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>159</dx>
+          <dy>236</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>334</dx>
+          <dy>4</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>392</dx>
+          <dy>4</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>159</dx>
+          <dy>120</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>391</dx>
+          <dy>120</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>391</dx>
+          <dy>236</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>276</dx>
+          <dy>120</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>391</dx>
+          <dy>120</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>275</dx>
+          <dy>236</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>331</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>215</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>99</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>99</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>331</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>331</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>215</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>215</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>331</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>580</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>406</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>464</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>464</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>406</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>464</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>118</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>303</dx>
+          <dy>354</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>245</dx>
+          <dy>296</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>187</dx>
+          <dy>180</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>187</dx>
+          <dy>354</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>71</dx>
+          <dy>238</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>303</dx>
+          <dy>354</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>303</dx>
+          <dy>238</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>129</dx>
+          <dy>180</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>187</dx>
+          <dy>238</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>464</dx>
+          <dy>464</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>348</dx>
+          <dy>464</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>290</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>464</dx>
+          <dy>580</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>116</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>290</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>406</dx>
+          <dy>406</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>174</dx>
+          <dy>174</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>116</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>406</dx>
+          <dy>522</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>406</dx>
+          <dy>522</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>290</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>406</dx>
+          <dy>406</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>116</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>290</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>406</dx>
+          <dy>406</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>174</dx>
+          <dy>174</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>116</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>94</dx>
+          <dy>394</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>268</dx>
+          <dy>162</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>152</dx>
+          <dy>162</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>94</dx>
+          <dy>394</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>210</dx>
+          <dy>220</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>36</dx>
+          <dy>394</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>210</dx>
+          <dy>278</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>268</dx>
+          <dy>278</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>36</dx>
+          <dy>394</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>105</dx>
+          <dy>408</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>221</dx>
+          <dy>466</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>105</dx>
+          <dy>292</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>221</dx>
+          <dy>524</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>105</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>221</dx>
+          <dy>2</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>221</dx>
+          <dy>350</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>105</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>221</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>288</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>288</dx>
+          <dy>348</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>174</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>288</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>0</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>288</dx>
+          <dy>0</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>288</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>0</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>114</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>114</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>288</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>288</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>172</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>64</dx>
+          <dy>466</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>470</dx>
+          <dy>2</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>180</dx>
+          <dy>292</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>64</dx>
+          <dy>466</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>180</dx>
+          <dy>292</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>354</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>6</dx>
+          <dy>466</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>238</dx>
+          <dy>350</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>354</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>391</dx>
+          <dy>144</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>275</dx>
+          <dy>260</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>217</dx>
+          <dy>202</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>391</dx>
+          <dy>28</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>391</dx>
+          <dy>260</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>275</dx>
+          <dy>260</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>159</dx>
+          <dy>260</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>391</dx>
+          <dy>260</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>275</dx>
+          <dy>260</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>23</dx>
+          <dy>132</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>255</dx>
+          <dy>248</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>313</dx>
+          <dy>190</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>139</dx>
+          <dy>132</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>255</dx>
+          <dy>248</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>487</dx>
+          <dy>248</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>371</dx>
+          <dy>248</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>255</dx>
+          <dy>248</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>255</dx>
+          <dy>132</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>168</dx>
+          <dy>283</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>110</dx>
+          <dy>167</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>168</dx>
+          <dy>341</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>168</dx>
+          <dy>399</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>52</dx>
+          <dy>283</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>226</dx>
+          <dy>51</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>168</dx>
+          <dy>225</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>110</dx>
+          <dy>283</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>226</dx>
+          <dy>283</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>32</dx>
+          <dy>262</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>148</dx>
+          <dy>262</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>206</dx>
+          <dy>378</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>148</dx>
+          <dy>204</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>264</dx>
+          <dy>320</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>206</dx>
+          <dy>320</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>32</dx>
+          <dy>204</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>90</dx>
+          <dy>204</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>264</dx>
+          <dy>320</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>365</dx>
+          <dy>110</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>17</dx>
+          <dy>342</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>17</dx>
+          <dy>284</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>133</dx>
+          <dy>284</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>249</dx>
+          <dy>52</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>249</dx>
+          <dy>110</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>17</dx>
+          <dy>284</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>191</dx>
+          <dy>284</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>133</dx>
+          <dy>284</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>184</dx>
+          <dy>241</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>68</dx>
+          <dy>183</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>126</dx>
+          <dy>9</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>68</dx>
+          <dy>125</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>68</dx>
+          <dy>299</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>242</dx>
+          <dy>9</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>68</dx>
+          <dy>125</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>126</dx>
+          <dy>357</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>242</dx>
+          <dy>241</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>27</dx>
+          <dy>255</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>201</dx>
+          <dy>255</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>143</dx>
+          <dy>255</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>143</dx>
+          <dy>255</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>375</dx>
+          <dy>197</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>375</dx>
+          <dy>197</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>143</dx>
+          <dy>255</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>259</dx>
+          <dy>197</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>27</dx>
+          <dy>197</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>201</dx>
+          <dy>0</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>259</dx>
+          <dy>58</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>143</dx>
+          <dy>290</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>317</dx>
+          <dy>0</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>201</dx>
+          <dy>116</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>201</dx>
+          <dy>0</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>201</dx>
+          <dy>232</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>259</dx>
+          <dy>174</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>85</dx>
+          <dy>0</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>66</dx>
+          <dy>183</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>182</dx>
+          <dy>183</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>124</dx>
+          <dy>241</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>182</dx>
+          <dy>125</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>298</dx>
+          <dy>241</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>66</dx>
+          <dy>299</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>66</dx>
+          <dy>125</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>124</dx>
+          <dy>125</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>182</dx>
+          <dy>9</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>15</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>156</dx>
+          <dy>131</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>156</dx>
+          <dy>15</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>214</dx>
+          <dy>305</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>98</dx>
+          <dy>189</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>131</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>247</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>15</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>156</dx>
+          <dy>15</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>15</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>214</dx>
+          <dy>189</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>98</dx>
+          <dy>131</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>98</dx>
+          <dy>131</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>388</dx>
+          <dy>247</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>98</dx>
+          <dy>247</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>388</dx>
+          <dy>131</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>214</dx>
+          <dy>131</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>214</dx>
+          <dy>15</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>281</dx>
+          <dy>146</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>165</dx>
+          <dy>320</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>165</dx>
+          <dy>262</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>223</dx>
+          <dy>30</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>397</dx>
+          <dy>88</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>223</dx>
+          <dy>30</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>281</dx>
+          <dy>204</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>281</dx>
+          <dy>204</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>223</dx>
+          <dy>30</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>61</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>100</dx>
+          <dy>235</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>525</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>100</dx>
+          <dy>177</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>216</dx>
+          <dy>351</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>216</dx>
+          <dy>351</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>216</dx>
+          <dy>467</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>100</dx>
+          <dy>61</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>100</dx>
+          <dy>61</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>214</dx>
+          <dy>273</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>157</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>447</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>330</dx>
+          <dy>389</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>330</dx>
+          <dy>273</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>214</dx>
+          <dy>215</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>330</dx>
+          <dy>389</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>330</dx>
+          <dy>331</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>272</dx>
+          <dy>41</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>216</dx>
+          <dy>137</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>216</dx>
+          <dy>369</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>485</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>216</dx>
+          <dy>369</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>253</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>100</dx>
+          <dy>369</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>274</dx>
+          <dy>369</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>137</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>137</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>274</dx>
+          <dy>288</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>100</dx>
+          <dy>462</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>390</dx>
+          <dy>172</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>288</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>100</dx>
+          <dy>346</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>216</dx>
+          <dy>288</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>390</dx>
+          <dy>172</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>158</dx>
+          <dy>404</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>332</dx>
+          <dy>56</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>176</dx>
+          <dy>312</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>176</dx>
+          <dy>254</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>234</dx>
+          <dy>254</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>176</dx>
+          <dy>138</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>176</dx>
+          <dy>196</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>60</dx>
+          <dy>254</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>60</dx>
+          <dy>138</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>176</dx>
+          <dy>370</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>176</dx>
+          <dy>22</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>104</dx>
+          <dy>312</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>162</dx>
+          <dy>254</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>162</dx>
+          <dy>254</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>104</dx>
+          <dy>196</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>394</dx>
+          <dy>138</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>278</dx>
+          <dy>22</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>220</dx>
+          <dy>312</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>336</dx>
+          <dy>80</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>278</dx>
+          <dy>22</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>200</dx>
+          <dy>118</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>374</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>316</dx>
+          <dy>176</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>84</dx>
+          <dy>350</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>200</dx>
+          <dy>176</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>258</dx>
+          <dy>350</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>6</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>374</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>258</dx>
+          <dy>234</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>200</dx>
+          <dy>118</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>182</dx>
+          <dy>48</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>182</dx>
+          <dy>338</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>66</dx>
+          <dy>164</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>356</dx>
+          <dy>164</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>182</dx>
+          <dy>222</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>6</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>240</dx>
+          <dy>164</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>2</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>66</dx>
+          <dy>164</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>240</dx>
+          <dy>280</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>240</dx>
+          <dy>48</dy>
+        </shift>
+      </state>
+    </config>
+    <config>
+      <state id="0">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>362</dx>
+          <dy>77</dy>
+        </shift>
+      </state>
+      <state id="1">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>246</dx>
+          <dy>193</dy>
+        </shift>
+      </state>
+      <state id="2">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>304</dx>
+          <dy>193</dy>
+        </shift>
+      </state>
+      <state id="3">
+        <rotate>2</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>246</dx>
+          <dy>77</dy>
+        </shift>
+      </state>
+      <state id="4">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>420</dx>
+          <dy>135</dy>
+        </shift>
+      </state>
+      <state id="5">
+        <rotate>4</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>420</dx>
+          <dy>251</dy>
+        </shift>
+      </state>
+      <state id="6">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>420</dx>
+          <dy>77</dy>
+        </shift>
+      </state>
+      <state id="7">
+        <rotate>0</rotate>
+        <flip>0</flip>
+        <shift>
+          <dx>304</dx>
+          <dy>135</dy>
+        </shift>
+      </state>
+      <state id="8">
+        <rotate>4</rotate>
+        <flip>1</flip>
+        <shift>
+          <dx>130</dx>
+          <dy>193</dy>
+        </shift>
+      </state>
+    </config>
+  </configList>
+</game>

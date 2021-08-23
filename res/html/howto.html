@@ -1,0 +1,305 @@
+<HTML>
+<HEAD>
+<TITLE>HowTo</TITLE>
+</HEAD>
+<BODY BGCOLOR="#EEEEEE">
+
+<H2>How to use the program</H2>
+
+<H3>Introduction</H3>
+
+
+According to Wikipedia, 
+<A HREF="http://en.wikipedia.org/wiki/Tangram"><I>Tangram</I></A>
+is a dissection puzzle consisting of seven pieces
+which fit together to form a shape of some sort.
+This program implements <I>Tangram</I> and other
+dissection puzzles.
+<P>
+This document takes some liberty with the terminology.
+Each piece of <I>Tangram</I> is called a <I>tan</I>
+and a configuration of pieces is called a <I>tangram</I>
+(lower case).
+In this document, the words "tan" and "tangram" denote a piece
+and a configuration of a dissecting puzzle of the
+program whether or not the puzzle is <I>Tangram</I>.
+
+
+<H3>The GUI</H3>
+
+The graphical interface contains 3 main areas: 
+the <em>menu</em> (top of the interface, Fig. 1), 
+the <em>Control</em> (left, Fig. 2) and 
+the <em>Playboard</em> (right, Fig. 3).
+<P>
+<BLOCKQUOTE>
+<TABLE BORDER="1" CELLSPACING="0" BGCOLOR="#FFFFFF"><TR><TD>
+    <TABLE BORDER="0" CELLSPACING="9">
+      <TR><TD><IMG SRC="./menu.gif" ALT="[Menu]"></TD></TR>
+      <TR><TD>Figure 1.  The menu.</TD></TR>
+    </TABLE>
+</TD></TR></TABLE>
+<P>
+<TABLE BORDER="1" CELLSPACING="0" BGCOLOR="#FFFFFF"><TR><TD>
+    <TABLE BORDER="0" CELLSPACING="9">
+      <TR><TD><IMG SRC="./control.gif" ALT="[Control]"></TD></TR>
+      <TR><TD>Figure 2.  The Control.</TD></TR>
+    </TABLE>
+</TD></TR></TABLE>
+<P>
+<TABLE BORDER="1" CELLSPACING="0" BGCOLOR="#FFFFFF"><TR><TD>
+    <TABLE BORDER="0" CELLSPACING="9">
+      <TR><TD><IMG SRC="./playboard.gif" ALT="[Playboard]"></TD></TR>
+      <TR><TD>Figure 3.  The Playboard.</TD></TR>
+    </TABLE>
+</TD></TR></TABLE>
+<P>
+<TABLE BORDER="1" CELLSPACING="0" BGCOLOR="#FFFFFF"><TR><TD>
+    <TABLE BORDER="0" CELLSPACING="9">
+      <TR><TD><IMG SRC="./goalview.gif" ALT="[goal view]"></TD></TR>
+      <TR><TD>Figure 4.  The goal view.</TD></TR>
+    </TABLE>
+</TD></TR></TABLE>
+</BLOCKQUOTE>
+
+<P>
+
+The <em>Control</em> contains 4 buttons and a small black area with
+a white shape centered inside.  
+The black area is the <em>goal view</em> and
+the white shape inside it is a tangram referred to
+as the <em>current goal</em>.
+The buttons select the current goal and some options about it.
+
+<P>
+
+The colored polygons in the <em>Playboard</em> are the tans.
+The tans can be dragged, rotated and flipped with the mouse.
+The purpose of a game is to arrange the
+tans in a shape similar to the tangram shown
+by the <em>current goal</em>.
+
+<H3>Tangrams</H3>
+
+<H4>Changing the tangram</H4>
+
+There is a small database of tangrams for any puzzle.
+Two buttons, <em>Prev Goal</em> and <em>Next Goal</em>,
+move the <em>current goal</em> through the database.
+
+<H4>Solving the current goal</H4>
+
+The <em>Easy</em> button of the <em>Control</em>
+produces a representation of the <em>current goal</em>, at natural size,
+on the <em>Playboard</em>.
+In contrast to the tans on the <em>Playboard</em>,
+this representation of the tangram cannot be moved.
+<P>
+
+The button labeled <em>Solve</em> shows the solution
+of the game in the <em>current goal</em>.
+
+<H4>Managing the tangram database</H4>
+
+Tangrams can be added to and deleted from the database.
+To delete the <em>current goal</em> choose the
+<em>delete</em> item in the <em>Goals</em> menu entry.
+The "initial" tangram of a set cannot be deleted.
+<P>
+To add a new tangram, place the tans
+in the desired configuration and choose the
+<em>add</em> item in the <em>Goals</em> menu entry.
+The newly added tangram is placed after the current goal
+and it becomes the new current goal.
+
+<P>
+
+Every configuration of tans can be
+made into a tangram.  But configurations with 
+overlapping tans should be avoided.
+The <I>Easy</I> option does not handle these configurations
+correctly.
+
+<P>
+
+The database of tangrams may be permanently saved to disk.
+This feature is affected by how the program is started and by
+the permission to write on the local disk.
+To save the database choose the <em>save</em>
+item in the <em>Goals</em> menu entry.
+The choice may be disabled or fail depending on the above conditions.
+
+<H3>Manipulating the tans</H3>
+
+The tans can partially or totally overlap.
+Any mouse click on a tan brings it to the top.
+
+<P>
+
+The mouse enables the following actions.
+See the "Using keyboard keys" section below for some alternatives
+to mouse actions.
+
+<BLOCKQUOTE>
+<TABLE BORDER="1" CELLSPACING="0" BGCOLOR="#FFFFFF"><TR><TD>
+    <TABLE BORDER="1" CELLSPACING="3">
+  <TR>
+    <TH>Mouse action</TH>
+    <TH>Tan behavior</TH>
+  </TR>
+  <TR>
+    <TD>left down</TD>
+    <TD>bring to top</TD>
+  </TR>
+  <TR>
+    <TD>any drag</TD>
+    <TD>move</TD>
+  </TR>
+  <TR>
+    <TD>right click</TD>
+    <TD>rotate counterclockwise</TD>
+  </TR>
+  <TR>
+    <TD>middle click</TD>
+    <TD>rotate clockwise</TD>
+  </TR>
+  <TR>
+    <TD>left double click</TD>
+    <TD>flip</TD>
+  </TR>
+</TABLE>
+</TD></TR></TABLE>
+</BLOCKQUOTE>
+
+A rotation is always by 45 degrees.
+
+<P>
+
+The corners of the tans attract each other when they are
+in proximity.  This feature eases the placement of tans.
+This feature may preclude some small movements that would put
+two corners a few pixels apart.
+
+<H3>Menu</H3>
+
+The <em>menu</em> affects global actions and setting of the program.
+
+<P>
+
+Several sets of tans may be available in the program.
+A set of tans can be selected with the
+<em>Open</em> item in the <em>File</em> menu entry.
+
+<P>
+
+The program default settings, except for the configuration
+of the tans, can be restored with the
+<em>Default</em> item in the <em>File</em> menu entry.
+
+<P>
+
+The <em>Easy</em> option is local to the current tangram.
+The <em>menu</em> allows setting this option permanently
+with the <em>Always easy</em> item in the <em>Options</em> menu entry.
+
+<P>
+
+An audible sound can be produced when the corners of
+two tans touch, i.e., the tans
+fall in place.  By default, the sound is disabled.
+It can be enabled by toggling
+the <em>Quiet</em> item in the <em>Options</em> menu entry.
+
+<P> 
+
+The <em>Goals</em> menu entry supports the manipulations of
+tangrams as discussed earlier.
+
+<P> 
+
+The <em>Help</em> menu entry provides information about the
+program.
+
+<H3>Using keyboard keys</H3>
+
+Some frequent menu and mouse actions can be obtained
+with keyboard keys.  Menu entries and button labels
+display the key for obtaining the corresponding action.
+
+<P>
+
+In particular, the tans can be moved using
+only the left button.  When the left button is down
+on a <em>Tan</em>, the keys enable the following actions.
+
+<BLOCKQUOTE>
+<TABLE BORDER="1" CELLSPACING="0" BGCOLOR="#FFFFFF"><TR><TD>
+    <TABLE BORDER="1" CELLSPACING="3">
+  <TR>
+    <TH>Key</TH>
+    <TH>Tan behavior</TH>
+  </TR>
+  <TR>
+    <TD>R</TD>
+    <TD>rotate counterclockwise</TD>
+  </TR>
+  <TR>
+    <TD>T</TD>
+    <TD>rotate clockwise</TD>
+  </TR>
+  <TR>
+    <TD>F</TD>
+    <TD>flip</TD>
+  </TR>
+</TABLE>
+</TD></TR></TABLE>
+</BLOCKQUOTE>
+
+<P>
+
+The case, i.e., upper vs. lower, of a key is irrelevant.
+
+<H3>New Puzzles</H3>
+
+A <em>Puzzle</em> is a set of tans and its database of tangrams.
+It is possible to add new puzzles without changing and recompiling the program.
+Adding a puzzle entails creating a text file with extensions
+<TT><B>xml</B></TT> and placing it in the directory <TT><B>res/xml</B></TT>.
+This directory contains several puzzle files.
+The definition of a puzzle file is not yet documented,
+but the content and format, which can be inspected with a text editor,
+are relatively self-explanatory.
+
+<H3>TODO, bugs</H3>
+
+<H4>Diplaying tangrams</H4>
+
+It takes a considerably long time to display some tangrams
+in the <em>goal view</em>.  
+Probably the time goes into scaling the image 4:1.  
+Maybe there is a better way to achieve the effect.
+
+<H4>Adding tangrams</H4>
+
+Tangrams with overlapping tans should be detected and rejected,
+since the easy silouette is incorrectly computed for these tangrams.
+
+
+<H3>Acknowledgment</H3>
+
+<A HREF="http://www.mathadomicile.fr">Philippe Moutou</A>
+contributed the machine executable definition,
+in the form of an XML document, of many puzzles and suggested several
+improvements to an earlier version of this program.
+Harold Fuchs (London, England) helped with the terminology.
+
+<P><HR></P>
+
+<P><I><FONT SIZE=-1>
+Copyright &copy; 1996-2008 by
+<A HREF="mailto:antoy@cs.pdx.edu">S. Antoy</A>.
+All Rights Reserved. Version 0.86 of 7/23/2008.
+</FONT></I></P>
+
+</BODY>
+</HTML>

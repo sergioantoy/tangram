@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# ROOT is the classpath for this project
+ROOT=`(cd \`dirname $0\`/.. > /dev/null ; pwd)`
+
+cd $ROOT
+rm -f tangram.jar
+
+echo building jar with manifest
+
+jar cfm tangram.jar Manifest.txt res -C classes tangram
+jarsigner -tsa http://timestamp.digicert.com -keystore keystore -storepass somessy tangram.jar antoy
+jarsigner -verify -verbose -certs -keystore keystore tangram.jar 

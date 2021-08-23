@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# ROOT is the classpath for this project
+ROOT=`(cd \`dirname $0\`/.. > /dev/null ; pwd)`
+
+
+
+cd $ROOT
+
+if [ "$1" = "-applet" ]; then
+    appletviewer tangram.html
+elif [ "$1" = "-browser" ]; then
+    firefox file://`pwd`/tangram.html
+elif [ "$1" = "-jar" ]; then
+    java -jar tangram.jar "$@"
+else
+    java -classpath .:$ROOT/classes tangram.Main "$@"
+fi
