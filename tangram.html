@@ -30,7 +30,8 @@
 	     style="width:103px; height:83px;">
       </a>
     </div>
-    Clicking on the icon will pop up a frame for the Tangram puzzle.
+    If this document is installed on a server,
+    clicking on the icon will pop up a frame for the Tangram puzzle.
     According to Wikipedia,
     <a href="http://en.wikipedia.org/wiki/Tangram"><i>Tangram</i></a>
     is a dissection puzzle consisting of seven pieces
@@ -39,7 +40,17 @@
     dissection puzzles.
     <p>
       Browsers are not friendly to Java.  If your browser refuses to execute
-      the program, you can execute it with a command similar to the following:
+      the program, you have a couple of options.  You can execute the <em>jar</em> that comes with the distribution with a command like
+      <div style="text-align:center; font-family:monospace;">
+	java -jar tangram.jar
+      </div>
+      <br/>
+      If the jar is remote or in some other folder, adjust the path.
+      <p>
+      If a Java Network Launch Protocol version is available,
+      you can also execute the program with the Java Web Start.
+      The command is similar to the following,
+      where the URL may be different:
       <div style="text-align:center; font-family:monospace;">
 	javaws http://web.cecs.pdx.edu/~antoy/private/tangram-dir/tangram.jnlp
       </div>
@@ -314,9 +325,10 @@
     <p><hr>
 
     <p><div style="font-style:italic; font-size:75%; text-align:right;">
-	Copyright &copy; 1996-2017 by
-	<a href="mailto:antoy@cs.pdx.edu">S. Antoy</a>.<br/>
-	Version 0.86 of 7/23/2008.
+	Copyright &copy; 1996-2021 by
+	<a href="mailto:antoy@spiretech.com">S. Antoy</a>.<br/>
+	Version 0.86 of 7/23/2008.<br/>
+        Document date 08/24/2021.
       </div>
 
   </body>

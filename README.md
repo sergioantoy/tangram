@@ -10,12 +10,7 @@ The puzzle is entertaining.
 
 ## Getting Started
 
-Linux scripts for compiling and executing the program are in the `cmd` folder.
-The program is already compiled in forms suitable for some environments:
-
-+ `appletviewer /`*path*`/tangram.html`
-+ `java -jar /`*path*`/tangram.jar`
-+ `javaws http://`*path*`/tangram.jnlp` 
+Linux scripts for compiling and executing the program are in the `cmd` folder. The program comes already compiled in a "jar".  It can be downloaded and executed with `java -jar /`*path*`/tangram.jar` where *path* is the relative path of the jar.
 
 ## Usage
 
